@@ -95,15 +95,20 @@
 .aboutMe{
     margin-top: 50px;
     margin-left:  88px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .aboutMe h2 {
 	font-family: "Fira Sans", sans-serif;
+	font-size: 3.5em;
 	margin: 12px;
 	font: bold;
 }
 
 .aboutMe p {
+	font-size: 1.5em;
 	margin: 12px;
 	font-family: "Source Code Pro", monospace;
 }
@@ -120,12 +125,17 @@
 	font-weight: 800;
 }
 
-.skills .skillItem .skillButtons button {
+.skills .skillItem .skillButtons .technologies {
 	color: rgb(22, 20, 20);
-	height: 50px;
-	width: 50px;
+	height: 70px;
+	width: 70px;
 	border-radius: 50%;
-	border: 1px solid rgb(37, 2, 100);
+}
+
+.skillButtons .technologies{
+	font-size: 1rem;
+	border: 1px solid rgb(165, 162, 194);
+	background-color: rgb(216, 216, 223);
 }
 
 .sidebarGo {
